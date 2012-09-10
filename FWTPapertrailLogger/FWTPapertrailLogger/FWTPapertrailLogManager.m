@@ -57,6 +57,11 @@ static FWTPapertrailLogManager *sharedManager = nil;
 
 - (void) start
 {
+    if (pipe){
+        // already started
+        return;
+    }
+    
     pipe = [NSPipe pipe];
     stderrWriteFileHandle = [pipe fileHandleForWriting];
     stderrReadFileHandle = [pipe fileHandleForReading];
