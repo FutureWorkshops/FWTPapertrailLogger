@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9A2C53E15FE139F00178995 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A2C53D15FE139F00178995 /* UIKit.framework */; };
+		C9A2C54015FE139F00178995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A2C53F15FE139F00178995 /* Foundation.framework */; };
+		C9A2C54215FE139F00178995 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A2C54115FE139F00178995 /* CoreGraphics.framework */; };
+		C9A2C54815FE139F00178995 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9A2C54615FE139F00178995 /* InfoPlist.strings */; };
+		C9A2C54A15FE139F00178995 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A2C54915FE139F00178995 /* main.m */; };
+		C9A2C54E15FE139F00178995 /* FWTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A2C54D15FE139F00178995 /* FWTAppDelegate.m */; };
+		C9A2C55615FE140D00178995 /* FWTPapertrailLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A2C55515FE140D00178995 /* FWTPapertrailLogManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9A2C53915FE139F00178995 /* FWTPapertrailLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FWTPapertrailLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A2C53D15FE139F00178995 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9A2C53F15FE139F00178995 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9A2C54115FE139F00178995 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9A2C54515FE139F00178995 /* FWTPapertrailLogger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FWTPapertrailLogger-Info.plist"; sourceTree = "<group>"; };
+		C9A2C54715FE139F00178995 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9A2C54915FE139F00178995 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9A2C54B15FE139F00178995 /* FWTPapertrailLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FWTPapertrailLogger-Prefix.pch"; sourceTree = "<group>"; };
+		C9A2C54C15FE139F00178995 /* FWTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWTAppDelegate.h; sourceTree = "<group>"; };
+		C9A2C54D15FE139F00178995 /* FWTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWTAppDelegate.m; sourceTree = "<group>"; };
+		C9A2C55415FE140D00178995 /* FWTPapertrailLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWTPapertrailLogManager.h; sourceTree = "<group>"; };
+		C9A2C55515FE140D00178995 /* FWTPapertrailLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWTPapertrailLogManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9A2C53615FE139F00178995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A2C53E15FE139F00178995 /* UIKit.framework in Frameworks */,
+				C9A2C54015FE139F00178995 /* Foundation.framework in Frameworks */,
+				C9A2C54215FE139F00178995 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9A2C52E15FE139F00178995 = {
+			isa = PBXGroup;
+			children = (
+				C9A2C54315FE139F00178995 /* FWTPapertrailLogger */,
+				C9A2C53C15FE139F00178995 /* Frameworks */,
+				C9A2C53A15FE139F00178995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9A2C53A15FE139F00178995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9A2C53915FE139F00178995 /* FWTPapertrailLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9A2C53C15FE139F00178995 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9A2C53D15FE139F00178995 /* UIKit.framework */,
+				C9A2C53F15FE139F00178995 /* Foundation.framework */,
+				C9A2C54115FE139F00178995 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9A2C54315FE139F00178995 /* FWTPapertrailLogger */ = {
+			isa = PBXGroup;
+			children = (
+				C9A2C55415FE140D00178995 /* FWTPapertrailLogManager.h */,
+				C9A2C55515FE140D00178995 /* FWTPapertrailLogManager.m */,
+				C9A2C54C15FE139F00178995 /* FWTAppDelegate.h */,
+				C9A2C54D15FE139F00178995 /* FWTAppDelegate.m */,
+				C9A2C54415FE139F00178995 /* Supporting Files */,
+			);
+			path = FWTPapertrailLogger;
+			sourceTree = "<group>";
+		};
+		C9A2C54415FE139F00178995 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9A2C54515FE139F00178995 /* FWTPapertrailLogger-Info.plist */,
+				C9A2C54615FE139F00178995 /* InfoPlist.strings */,
+				C9A2C54915FE139F00178995 /* main.m */,
+				C9A2C54B15FE139F00178995 /* FWTPapertrailLogger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9A2C53815FE139F00178995 /* FWTPapertrailLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A2C55115FE139F00178995 /* Build configuration list for PBXNativeTarget "FWTPapertrailLogger" */;
+			buildPhases = (
+				C9A2C53515FE139F00178995 /* Sources */,
+				C9A2C53615FE139F00178995 /* Frameworks */,
+				C9A2C53715FE139F00178995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FWTPapertrailLogger;
+			productName = FWTPapertrailLogger;
+			productReference = C9A2C53915FE139F00178995 /* FWTPapertrailLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9A2C53015FE139F00178995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FWT;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Matt Brooke-Smith";
+			};
+			buildConfigurationList = C9A2C53315FE139F00178995 /* Build configuration list for PBXProject "FWTPapertrailLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9A2C52E15FE139F00178995;
+			productRefGroup = C9A2C53A15FE139F00178995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9A2C53815FE139F00178995 /* FWTPapertrailLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9A2C53715FE139F00178995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A2C54815FE139F00178995 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9A2C53515FE139F00178995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A2C54A15FE139F00178995 /* main.m in Sources */,
+				C9A2C54E15FE139F00178995 /* FWTAppDelegate.m in Sources */,
+				C9A2C55615FE140D00178995 /* FWTPapertrailLogManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9A2C54615FE139F00178995 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9A2C54715FE139F00178995 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9A2C54F15FE139F00178995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9A2C55015FE139F00178995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9A2C55215FE139F00178995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FWTPapertrailLogger/FWTPapertrailLogger-Prefix.pch";
+				INFOPLIST_FILE = "FWTPapertrailLogger/FWTPapertrailLogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9A2C55315FE139F00178995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FWTPapertrailLogger/FWTPapertrailLogger-Prefix.pch";
+				INFOPLIST_FILE = "FWTPapertrailLogger/FWTPapertrailLogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9A2C53315FE139F00178995 /* Build configuration list for PBXProject "FWTPapertrailLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A2C54F15FE139F00178995 /* Debug */,
+				C9A2C55015FE139F00178995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A2C55115FE139F00178995 /* Build configuration list for PBXNativeTarget "FWTPapertrailLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A2C55215FE139F00178995 /* Debug */,
+				C9A2C55315FE139F00178995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9A2C53015FE139F00178995 /* Project object */;
+}
