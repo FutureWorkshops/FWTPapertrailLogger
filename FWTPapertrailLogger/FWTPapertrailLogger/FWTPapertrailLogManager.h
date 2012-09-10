@@ -18,5 +18,6 @@
 
 + (FWTPapertrailLogManager *) sharedManager;
 - (void) start;
+- (void) stop;
 
 @end
