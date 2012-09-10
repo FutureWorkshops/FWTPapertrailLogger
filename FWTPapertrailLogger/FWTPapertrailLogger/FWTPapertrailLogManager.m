@@ -32,6 +32,12 @@ static FWTPapertrailLogManager *sharedManager = nil;
     return sharedManager;
 }
 
+- (void)dealloc
+{
+    [self stop];
+    [super dealloc];
+}
+
 - (id)init
 {
     self = [super init];
@@ -51,6 +57,11 @@ static FWTPapertrailLogManager *sharedManager = nil;
 
 - (void) start
 {
+    if (pipe){
+        // already started
+        return;
+    }
+    
     pipe = [NSPipe pipe];
     stderrWriteFileHandle = [pipe fileHandleForWriting];
     stderrReadFileHandle = [pipe fileHandleForReading];
@@ -63,7 +74,18 @@ static FWTPapertrailLogManager *sharedManager = nil;
 
 - (void) stop
 {
+    [pipe release];
+    pipe = nil;
+    [stderrWriteFileHandle release];
+    stderrWriteFileHandle = nil;
+    [stderrReadFileHandle release];
+    stderrReadFileHandle = nil;
     
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    
+    @synchronized(self.lock){
+        [self.logLines removeAllObjects];
+    }
 }
 
 - (void)notificationReceived:(NSNotification *)notification
