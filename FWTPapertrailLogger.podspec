@@ -7,5 +7,5 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/FutureWorkshops/FWTPapertrailLogger'
   s.author       = { 'Matt Brooke-Smith' => 'matt@futureworkshops.com' }
   s.source       = { :git => 'https://github.com/FutureWorkshops/FWTPapertrailLogger.git', :tag => '1.0.0' }
-  s.source_files = 'FWTPapertrailLogger/FWTPapertrailLogger/FWTPapertrailLogger.{h,m}'
+  s.source_files = 'FWTPapertrailLogger/FWTPapertrailLogger/FWTPapertrailLogManager.{h,m}'
 end
